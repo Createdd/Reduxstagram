@@ -1,7 +1,7 @@
 import React from 'react';
-import {link} from 'react-router';
+import { link } from 'react-router';
 
-export default Main = React.createClass({
+const Main = React.createClass({
   render() {
     return (
       <div>
@@ -12,3 +12,5 @@ export default Main = React.createClass({
     );
   }
 });
+
+export default Main;
