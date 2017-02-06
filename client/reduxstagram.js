@@ -28,10 +28,9 @@ Raven.config(sentry_url, {
 // logException(new Error('download failed!'), {
 //   email: 'danimail'
 // })
-Raven.captureMessage('Something went to shit');
-Raven.showReportDialog();
+// Raven.captureMessage('Something went to shit');
+// Raven.showReportDialog();
 
-console.log(window.adsfasdf);
 
 const router = (
   <Provider store={store}>
